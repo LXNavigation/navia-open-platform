@@ -70,6 +70,77 @@ Setting up WebSocket client
 
 ## Hardware
 
-Hardware directory contains schematics and other reference documentation of LX ESP32 POE Development Board.
+### Board Overview
+
+The development board is built around the ESP-WROOM-32 module, leveraging its powerful dual-core processor, Wi-Fi, and Bluetooth capabilities. The board exposes a variety of GPIO pins, power options, and other features to facilitate easy prototyping and development.
 
 ![Navia ESP32 POE Development Board](https://github.com/LXNavigation/navia-open-platform/blob/main/Hardware/pcb.png?raw=true)
+
+### Pinout Diagram
+
+A preview of our development board is shown above, illustrating the physical layout of the pins.
+![Navia ESP32 POE Development Board](https://github.com/LXNavigation/navia-open-platform/blob/main/Hardware/ESP32-POE-DEV%20Preview.png?raw=true)
+
+### Pin Descriptions
+
+The following tables detail the available pins on the development board and their corresponding GPIO numbers on the ESP32.
+
+#### Left Side Pins
+
+| Pin Label | ESP32 GPIO | Notes                                     |
+| --------- | ----------- | ----------------------------------------- |
+| 5V        | -           | 5V Power Input/Output                     |
+| GND       | -           | Ground                                    |
+| VCC       | -           | 3.3V Power from ESP32 module                 |
+| IO39      | GPIO39      | Input Only                                |
+| IO36      | GPIO36      | Input Only                                |
+| IO35      | GPIO35      | Input Only                                |
+| IO34      | GPIO34      | Input Only                                |
+| IO33      | GPIO33      | ADC1_CH5, Touch Sensing, PWM capable      |
+| IO32      | GPIO32      | ADC1_CH4, Touch Sensing, PWM capable      |
+| IO17      | GPIO17      | SPI SS, Can be used as general I/O    |
+
+#### Right Side Pins
+
+| Pin Label | ESP32 GPIO | Notes                                     |
+| --------- | ----------- | ----------------------------------------- |
+| 5V        | -           | 5V Power Input/Output                     |
+| GND       | -           | Ground                                    |
+| VCC       | -           | 3.3V Power from ESP32 module                 |
+| IO15      | GPIO15      | ADC2_CH3, HSPI_D2, PWM capable, MTDO     |
+| IO14      | GPIO14      | ADC2_CH6, HSPI_CLK, PWM capable, MTCK    |
+| IO13      | GPIO13      | ADC2_CH4, HSPI_D0, PWM capable, MTDI, DAC2_OUT |
+| IO12      | GPIO12      | ADC2_CH5, HSPI_D1, PWM capable, MTMS     |
+| IO5       | GPIO5       | VSPI_CS0, PWM capable                   |
+| IO4       | GPIO4       | ADC2_CH0, Touch Sensing, PWM capable      |
+| IO2       | GPIO2       | ADC2_CH2, Touch Sensing, PWM capable      |
+| GND       | -           | Ground                                    |
+| 48V       | -           | 48V Power Input                           |
+
+#### Notes on Pin Usage
+
+*   **ADC:** Pins labeled with ADC can be used for analog-to-digital conversion. Note that ADC2 pins cannot be used when Wi-Fi is active.
+*   **Touch Sensing:** Certain pins support capacitive touch sensing.
+*   **PWM:** Pins labeled as PWM capable can be used for pulse-width modulation to control devices like motors or LEDs.
+*   **SPI:** The board supports SPI communication using specific pins (HSPI and VSPI).
+*   **Input Only:** GPIOs 34, 35, 36, and 39 are input-only pins.
+*   **Power Pins:** The board provides 5V, 3.3V, and a dedicated 48V for specialized applications. Be careful not to exceed the voltage tolerances of the ESP32 (3.3V) on its GPIO pins.
+*   **Boot Mode Selection:** Some pins (like GPIO0, not exposed on our board's external pins) might have special functions during boot. Refer to the ESP32 datasheet for more details.
+
+### Power Supply
+
+The board can be powered via:
+
+*   **5V Pin:** Supply 5V through the designated 5V pins.
+*   **USB:**  The board include a micor USB connector. Use to upload your sketch and monitor serial output. 
+*   **48V Pin:** For high-voltage applications, use 48V pin with caution.
+*   
+**Important:** Always refer to the ESP32 datasheet and the schematic of this development board for the most accurate and up-to-date information before connecting external components or using specific pins.
+
+### Further Information
+
+*   **LX POE Developmentboard Schematich:** \[https://github.com/LXNavigation/navia-open-platform/blob/main/Hardware/ESP32-POE-DEV%20Schematic.pdf]
+*   **ESP-IDF Pinout:** \[https://github.com/LXNavigation/navia-open-platform/blob/main/Hardware/ESP32-POE-DEV%20Preview.pdf]
+
+We hope this guide is helpful for your projects. If you have any questions or suggestions, please feel free to open an issue or contribute to this repository!
+
