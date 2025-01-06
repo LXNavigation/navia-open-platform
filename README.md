@@ -19,16 +19,18 @@ Or if you selected Arduino IDE 2.0: https://randomnerdtutorials.com/installing-e
 In Arduino IDE 1.8.x:
 
 1. Select:
+   
    Tools > Board: "ESP32 Dev Module"
+   
    Tools > Flash Size: "4MB (32Mb)"
+   
    Tools > Port: <select-your-com-port>
 
-2. Upload sketch
+4. Upload sketch
 
-3. Open Tools > Serial Monitor.
+5. Open Tools > Serial Monitor.
 
-Expected output:
-
+**Expected output:**
 <code>
 Navia Open Example has taken off!
 Connecting to network: LXN
