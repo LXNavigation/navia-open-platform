@@ -1,5 +1,5 @@
 /**
- * @file NaviaOpenSample.ino
+ * @file NaviaOpenExample.ino
  * @author LX Navigation
  * @brief This Arduino sketch implements a client for interacting with the Navia
  * Core platform. Upon connecting to a specified network (e.g., a Navia Core
