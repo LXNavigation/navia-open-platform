@@ -28,7 +28,7 @@ In Arduino IDE 1.8.x:
 
 4. Upload sketch
 
-5. Open Tools > Serial Monitor.
+5. Open: Tools > Serial Monitor.
 
 **Expected output:**
 <code>
