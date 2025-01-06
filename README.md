@@ -69,3 +69,5 @@ Setting up WebSocket client
 ## Hardware
 
 Hardware directory contains schematics and other reference documentation of LX ESP32 POE Development Board.
+
+![Navia ESP32 POE Development Board](https://github.com/LXNavigation/navia-open-platform/blob/main/Hardware/pcb.png?raw=true)
