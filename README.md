@@ -24,7 +24,7 @@ In Arduino IDE 1.8.x:
    
    Tools > Flash Size: "4MB (32Mb)"
    
-   Tools > Port: <select-your-com-port>
+   Tools > Port: \<select-your-com-port\>
 
 4. Upload sketch
 
