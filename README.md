@@ -26,7 +26,7 @@ In Arduino IDE 1.8.x:
    
    Tools > Port: \<select-your-com-port\>
 
-4. Upload sketch
+4. Open and Upload sketch: https://github.com/LXNavigation/navia-open-platform/tree/main/NaviaOpenExample
 
 5. Open: Tools > Serial Monitor.
 
