@@ -132,14 +132,14 @@ The following tables detail the available pins on the development board and thei
 The board can be powered via:
 
 *   **5V Pin:** Supply 5V through the designated 5V pins.
-*   **USB:**  The board include a micor USB connector. Use to upload your sketch and monitor serial output. 
+*   **USB:**  The board include a micro USB connector. Use to upload your sketch and monitor serial output. 
 *   **48V Pin:** For high-voltage applications, use 48V pin with caution.
 *   
 **Important:** Always refer to the ESP32 datasheet and the schematic of this development board for the most accurate and up-to-date information before connecting external components or using specific pins.
 
 ### Further Information
 
-*   **LX POE Developmentboard Schematich:** \[https://github.com/LXNavigation/navia-open-platform/blob/main/Hardware/ESP32-POE-DEV%20Schematic.pdf]
+*   **LX POE Development board Schematics:** \[https://github.com/LXNavigation/navia-open-platform/blob/main/Hardware/ESP32-POE-DEV%20Schematic.pdf]
 *   **ESP-IDF Pinout:** \[https://github.com/LXNavigation/navia-open-platform/blob/main/Hardware/ESP32-POE-DEV%20Preview.pdf]
 
 We hope this guide is helpful for your projects. If you have any questions or suggestions, please feel free to open an issue or contribute to this repository!
