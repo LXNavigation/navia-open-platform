@@ -98,7 +98,7 @@ The following tables detail the available pins on the development board and thei
 | IO34      | GPIO34      | Input Only                                |
 | IO33      | GPIO33      | ADC1_CH5, Touch Sensing, PWM capable      |
 | IO32      | GPIO32      | ADC1_CH4, Touch Sensing, PWM capable      |
-| IO17      | GPIO17      | SPI SS, Can be used as general I/O    |
+| IO17      | GPIO17      | Can be used as general I/O    |
 
 #### Right Side Pins
 
@@ -107,10 +107,10 @@ The following tables detail the available pins on the development board and thei
 | 5V        | -           | 5V Power Input/Output                     |
 | GND       | -           | Ground                                    |
 | VCC       | -           | 3.3V Power from ESP32 module                 |
-| IO15      | GPIO15      | ADC2_CH3, HSPI_D2, PWM capable, MTDO     |
+| IO15      | GPIO15      | ADC2_CH3, HSPI_CS, PWM capable, MTDO     |
 | IO14      | GPIO14      | ADC2_CH6, HSPI_CLK, PWM capable, MTCK    |
-| IO13      | GPIO13      | ADC2_CH4, HSPI_D0, PWM capable, MTDI, DAC2_OUT |
-| IO12      | GPIO12      | ADC2_CH5, HSPI_D1, PWM capable, MTMS     |
+| IO13      | GPIO13      | ADC2_CH4, HSPI_MOSI, PWM capable, MTDI, DAC2_OUT |
+| IO12      | GPIO12      | ADC2_CH5, HSPI_MISO, PWM capable, MTMS     |
 | IO5       | GPIO5       | VSPI_CS0, PWM capable                   |
 | IO4       | GPIO4       | ADC2_CH0, Touch Sensing, PWM capable      |
 | IO2       | GPIO2       | ADC2_CH2, Touch Sensing, PWM capable      |
