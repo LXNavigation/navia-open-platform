@@ -79,6 +79,7 @@ The development board is built around the ESP-WROOM-32 module, leveraging its po
 ### Pinout Diagram
 
 ![Navia ESP32 POE Development Board](https://github.com/LXNavigation/navia-open-platform/blob/main/Hardware/ESP32-POE-DEV%20Preview.png?raw=true)
+
 A preview of our development board is shown above, illustrating the physical layout of the pins.
 
 ### Pin Descriptions
