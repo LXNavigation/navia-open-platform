@@ -140,8 +140,8 @@ The board can be powered via:
 
 ### Further Information
 
-*   **LX POE Development board Schematics:** \[https://github.com/LXNavigation/navia-open-platform/blob/main/Hardware/ESP32-POE-DEV%20Schematic.pdf]
-*   **ESP-IDF Pinout:** \[https://github.com/LXNavigation/navia-open-platform/blob/main/Hardware/ESP32-POE-DEV%20Preview.pdf]
+*   **LX POE Development board Schematics:** (https://github.com/LXNavigation/navia-open-platform/blob/main/Hardware/ESP32-POE-DEV%20Schematic.pdf)
+*   **ESP-IDF Pinout:** (https://github.com/LXNavigation/navia-open-platform/blob/main/Hardware/ESP32-POE-DEV%20Preview.pdf)
 
 We hope this guide is helpful for your projects. If you have any questions or suggestions, please feel free to open an issue or contribute to this repository!
 
